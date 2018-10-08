@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangHK-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Poker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="table" translatesAutoresizingMaskIntoConstraints="NO" id="kCL-Fi-sir">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deck" translatesAutoresizingMaskIntoConstraints="NO" id="p2E-0O-T4b">
+                                <rect key="frame" x="173" y="181" width="46" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="hHw-bx-o8r">
+                                <rect key="frame" x="227" y="180" width="58" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="5Or-TQ-WKT">
+                                <rect key="frame" x="284" y="180" width="58" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="wT2-Qt-W28">
+                                <rect key="frame" x="340" y="180" width="58" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="iIG-4d-8Q7">
+                                <rect key="frame" x="397" y="180" width="58" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="zJV-8v-IXO">
+                                <rect key="frame" x="450" y="181" width="58" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="9zC-DR-pKg">
+                                <rect key="frame" x="237" y="158" width="39" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="5Kt-FU-8b4">
+                                <rect key="frame" x="294" y="158" width="39" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="A9e-oW-Ldm">
+                                <rect key="frame" x="350" y="158" width="39" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="xxM-o6-RyF">
+                                <rect key="frame" x="407" y="158" width="39" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="z9k-0e-PtP">
+                                <rect key="frame" x="460" y="158" width="39" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ls3-jU-zkQ">
+                                <rect key="frame" x="308" y="20" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="17"/>
+                                <state key="normal" title="Play!"/>
+                                <connections>
+                                    <action selector="playButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ej4-E4-HwS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="izm-3u-MBj">
+                                <rect key="frame" x="284" y="301" width="62" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="dpJ-kh-VdC">
+                                <rect key="frame" x="334" y="301" width="62" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uc8-hO-Wfu">
+                                <rect key="frame" x="450" y="294" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.039375373547300523" green="0.50477871192893398" blue="0.0" alpha="0.72733839897260277" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Bet">
+                                    <color key="titleColor" red="0.96722972669987184" green="0.98612881639451344" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="betButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HiK-eA-h9l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4t-pe-lUv">
+                                <rect key="frame" x="450" y="332" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.039375373550000002" green="0.50477871190000001" blue="0.0" alpha="0.72733839899999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Check">
+                                    <color key="titleColor" red="0.96722972669999996" green="0.98612881640000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount ($): " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hez-QK-6Yo">
+                                <rect key="frame" x="506" y="294" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yO-fO-91w">
+                                <rect key="frame" x="611" y="294" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.079949560020600607" green="0.14600492291638251" blue="0.50477871192893398" alpha="0.72733839897260277" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" red="0.96722972669999996" green="0.98612881640000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="betButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MAF-cm-Dp5"/>
+                                    <action selector="betEnterButtonIsPressed1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejh-4q-agm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csm-ai-NCF">
+                                <rect key="frame" x="198" y="243" width="271" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.96722972669999996" green="0.98612881640000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39611995644198889" green="0.40968675106564151" blue="0.53430361675126903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kCL-Fi-sir" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JmW-cZ-kp4"/>
+                            <constraint firstItem="kCL-Fi-sir" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OcC-8P-iFU"/>
+                            <constraint firstItem="kCL-Fi-sir" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XfC-Pm-vTY"/>
+                            <constraint firstItem="kCL-Fi-sir" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hfQ-90-sa6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="betButton" destination="uc8-hO-Wfu" id="WlW-GQ-KW5"/>
+                        <outlet property="betEnterButton1" destination="1yO-fO-91w" id="Fgw-hd-SMv"/>
+                        <outlet property="betTextField" destination="Hez-QK-6Yo" id="lvL-Mq-Mhb"/>
+                        <outlet property="card1" destination="9zC-DR-pKg" id="1fW-Uk-yB3"/>
+                        <outlet property="card2" destination="5Kt-FU-8b4" id="OhI-Xd-oOw"/>
+                        <outlet property="card3" destination="A9e-oW-Ldm" id="bkx-Mu-WXc"/>
+                        <outlet property="card4" destination="xxM-o6-RyF" id="Qad-V5-yrK"/>
+                        <outlet property="card5" destination="z9k-0e-PtP" id="hfu-vf-bbR"/>
+                        <outlet property="checkButton" destination="e4t-pe-lUv" id="j3f-oY-6HO"/>
+                        <outlet property="deck" destination="p2E-0O-T4b" id="lNM-em-zCl"/>
+                        <outlet property="hand1" destination="izm-3u-MBj" id="Ida-DB-vLF"/>
+                        <outlet property="hand2" destination="dpJ-kh-VdC" id="Jum-xM-pL3"/>
+                        <outlet property="holder1" destination="hHw-bx-o8r" id="Z0O-Hr-esL"/>
+                        <outlet property="holder2" destination="5Or-TQ-WKT" id="qJP-zV-Ild"/>
+                        <outlet property="holder3" destination="wT2-Qt-W28" id="8DP-p0-9gn"/>
+                        <outlet property="holder4" destination="iIG-4d-8Q7" id="8lL-v9-a4A"/>
+                        <outlet property="holder5" destination="zJV-8v-IXO" id="Uan-BB-gJO"/>
+                        <outlet property="potLabel" destination="csm-ai-NCF" id="T3D-Zj-emS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.331334332833585" y="24.800000000000001"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="10_of_clubs" width="500" height="726"/>
+        <image name="10_of_diamonds" width="500" height="726"/>
+        <image name="10_of_hearts" width="500" height="726"/>
+        <image name="10_of_spades" width="500" height="726"/>
+        <image name="2_of_clubs" width="500" height="726"/>
+        <image name="2_of_diamonds" width="500" height="726"/>
+        <image name="2_of_hearts" width="500" height="726"/>
+        <image name="deck" width="500" height="700"/>
+        <image name="placeholder" width="900" height="1260"/>
+        <image name="table" width="792" height="462"/>
+    </resources>
+</document>
